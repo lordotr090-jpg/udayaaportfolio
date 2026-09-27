@@ -1,0 +1,7 @@
+Drop project thumbnail images in this folder (e.g. wedding-01.jpg, product-shoot-02.jpg).
+
+Then in js/projects-data.js, set a project's "thumbnail" field to:
+  assets/images/your-file-name.jpg
+
+Keep each image reasonably small (under ~500KB) so the site stays fast to load.
+Recommended shape: roughly 4:3 (e.g. 1200x900px) since cards crop to that ratio.
